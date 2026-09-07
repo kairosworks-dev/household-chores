@@ -42,5 +42,6 @@ reminders. Scope lives in `_docs/plan.md`.
 - `_docs/backlog.md` - the tasks, numbered to match GitHub issues
 - `_docs/process.md` - how work is organized
 - `_docs/task-template.md` - the shape of a well-formed task
+- `_docs/team/` - role definitions; read the one you are acting as
 - Before writing tests, read `_docs/testing-guidelines.md`
 - For anything touching the UI, read `_docs/design-system.md`

@@ -1,5 +1,9 @@
 # Backlog: Shared Chore Manager
 
+> **Frozen.** Each task below is now a GitHub issue of the same number, and the
+> issue is the system of record. This file is kept as the original index; it is
+> not updated when an issue is groomed or changed.
+
 Derived from [plan.md](plan.md). Each task is sized for a single session and written
 to be picked up by someone who has not read the other tasks.
 

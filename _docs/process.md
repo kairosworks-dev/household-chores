@@ -3,3 +3,6 @@
 - New issues follow `_docs/task-template.md`
 - Work on `main`; no branches or pull requests for this project
 - Commit regularly
+
+Roles
+- PM - grooms a task before anyone implements it, follows _docs/team/pm.md
