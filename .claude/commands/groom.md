@@ -3,10 +3,15 @@ description: Groom a GitHub issue into a well-formed task
 argument-hint: <issue number>
 ---
 
-Act as the Product Manager and groom issue #$ARGUMENTS.
+Launch the `pm` subagent to groom issue #$ARGUMENTS. Do not groom it yourself -
+`_docs/process.md` makes the main session the orchestrator, and the orchestrator
+does not do the work of a role it dispatches.
 
-Read `_docs/team/pm.md` and follow it exactly, along with the documents it
-points to. Rewrite the issue in place so it matches `_docs/task-template.md`,
-and file follow-up issues for anything you move out of scope.
+Tell the agent to do everything `_docs/team/pm.md` describes except the final
+`gh issue edit`: research the issue, decide what moves out of scope, write the
+rewritten body to a file, and report that body back along with what it intends
+to file as follow-ups.
 
-Show me the rewritten issue body before you edit the issue.
+Show me that body. On my approval, message the same agent to apply it - it files
+the follow-up issues and edits issue #$ARGUMENTS itself, so the PM stays the role
+that touches the issue.
