@@ -1,0 +1,5 @@
+- Tasks are GitHub issues, one at a time
+- Read the acceptance criteria before starting and before closing
+- New issues follow `_docs/task-template.md`
+- Work on `main`; no branches or pull requests for this project
+- Commit regularly
